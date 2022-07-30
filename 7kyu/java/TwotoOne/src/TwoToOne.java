@@ -10,13 +10,14 @@
 
 import java.util.*;
 
-public class TwotoOne {
+public class TwoToOne {
     public static void main(String[] args) {
         String result = logest("loopingisfunbutdangerous", "lessdangerousthancoding");
         System.out.printf(result);
     }
 
     public static String logest(String s1, String s2) {
+        //used ArrayList becouse is mutable. List.of(is not mutable)
         List<String> listS1 = Arrays.asList(s1.split(""));
         List<String> listS2 = Arrays.asList(s2.split(""));
 
