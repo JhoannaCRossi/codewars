@@ -53,6 +53,7 @@ fabric.properties
 **/*.iml
 modules.xml
 .idea
+.idea/
 
 ##############################
 ## Visual Studio Code
